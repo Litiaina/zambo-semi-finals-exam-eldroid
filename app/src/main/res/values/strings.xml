@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Semi-final</string>
+    <string name="tweet">Tweet</string>
+    <string name="tweet_name">Tweet Name</string>
+    <string name="tweet_description">Tweet Description</string>
+    <string name="tweet_uid">Tweet UID</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_description">Enter Description</string>
+</resources>

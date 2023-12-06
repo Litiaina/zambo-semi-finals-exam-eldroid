@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|start"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="10dp"
+        android:text="@string/tweet_name"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/text_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|start"
+        android:layout_marginStart="10dp"
+        android:text="@string/tweet_description"
+        android:textColor="@color/black"/>
+
+    <ImageButton
+        android:id="@+id/edit_image_button"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="5dp"
+        android:layout_gravity="end|center"
+        android:src="@drawable/baseline_edit_24"
+        android:background="@android:color/transparent"/>
+
+    <ImageButton
+        android:id="@+id/delete_image_button"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="end|center"
+        android:layout_marginEnd="55dp"
+        android:src="@drawable/baseline_delete_24"
+        android:background="@android:color/transparent"/>
+
+</androidx.cardview.widget.CardView>
